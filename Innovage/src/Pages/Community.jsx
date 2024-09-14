@@ -1,18 +1,19 @@
-import React from "react";
-import Navbar from "../Components/Navbar.jsx";
-import Menu from "../Components/Menu.jsx";
+// import React from "react";
+// import Navbar from "../Navbar.jsx";
+import Menu from "../Menu.jsx";
 import Jumbotron from "../Components/Jumbotron.jsx";
 import SearchBar from "../Components/SearchBar.jsx";
-import Trial from "../Components/trial.jsx";
+import Grid from "../Components/Grid.jsx";
+import Footer from "../Components/Footer.jsx";
 
 function Community() {
   return (
     <div>
-      {/* <Navbar />
-      <Menu />
+      {/* <Navbar /> */}
       <Jumbotron />
-      <SearchBar /> */}
+      <SearchBar />
       <Grid />
+      <Footer />
       {/* <Trial /> */}
     </div>
   );

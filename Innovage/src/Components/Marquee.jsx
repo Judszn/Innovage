@@ -1,8 +1,7 @@
 function Card() {
   return (
-    <div className="cards">
+    <div className="cards mt-[10vh] mb-[10vh]">
       <div>
-        <h1 className="explore">Explore</h1>
         <div className=" main__container">
           <section className=" enable-animation">
             <div className="marquee">

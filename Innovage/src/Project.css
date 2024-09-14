@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Bento {
+  width: 1400px;
+  margin: 20px auto;
+  columns: 3;
+  column-gap: 30px;
+  row-gap: 30px;
+}
+
+.Bento.Box {
+  margin-bottom: 10px;
+  width: 100%;
+  break-inside: avoid;
+}
+
+.Bento.Box img {
+  max-width: 100%;
+  border-radius: 25px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 1200px) {
+  .Bento {
+    width: calc(100% - 40px);
+    columns: 3;
+  }
+}
+
+@media (max-width: 768px) {
+  .Bento {
+    columns: 2;
+  }
+}
+
+@media (max-width: 480px) {
+  .Bento {
+    columns: 1;
+  }
+}
